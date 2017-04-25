@@ -1,6 +1,6 @@
 # npmtest-react-waypoint
 
-#### test coverage for  [react-waypoint (v6.0.0)](https://github.com/brigade/react-waypoint)  [![npm package](https://img.shields.io/npm/v/npmtest-react-waypoint.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-waypoint) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-waypoint.svg)](https://travis-ci.org/npmtest/node-npmtest-react-waypoint)
+#### basic test coverage for  [react-waypoint (v6.0.0)](https://github.com/brigade/react-waypoint)  [![npm package](https://img.shields.io/npm/v/npmtest-react-waypoint.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-waypoint) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-waypoint.svg)](https://travis-ci.org/npmtest/node-npmtest-react-waypoint)
 
 #### A React component to execute a function whenever you scroll to an element.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-waypoint/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-react-waypoint/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-react-waypoint/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-react-waypoint/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-waypoint/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-waypoint/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-react-waypoint/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-react-waypoint/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-waypoint/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-waypoint/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-react-waypoint/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-react-waypoint/build/coverage.html/index.html)
 
@@ -127,7 +127,8 @@
         "testonly:watch": "karma start --no-single-run"
     },
     "types": "index.d.ts",
-    "version": "6.0.0"
+    "version": "6.0.0",
+    "bin": {}
 }
 ```
 
